@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #1a1a1a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #ffd700;
+    margin: 0;
+}
+
+.watch-btn {
+    background: #ffd700;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.watch-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffd700;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #ffd700;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 215, 0, 0.2);
+}
+
+.imagess {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imagess img {
+    width: 120px;
+    height: 120px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.imagess img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    transition: 0.3s;
+}
+
+section:hover {
+    box-shadow: 0 0 10px #ffd700;
+}
+
+h2 {
+    color: #ffd700;
+    text-align: center;
+}
+
+.stands-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.stand-card {
+    text-align: center;
+}
+
+.stand-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.stand-card img:hover {
+    transform: scale(1.1);
+}
+
+.stand-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.stand-description {
+    color: #ffd700;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.stand-item {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.stand-item:hover {
+    color: #ffd700;
+    transform: translateX(10px);
+}
+
+.seasons-container {
+    text-align: center;
+}
+
+.season-item {
+    padding: 8px;
+    margin: 5px 0;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.season-item:hover {
+    color: #ffd700;
+    transform: scale(1.05);
+}
+
+.main-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-image img {
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.main-image img:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
